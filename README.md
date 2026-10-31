@@ -5,7 +5,7 @@ import time
 red = PWM(Pin(15))
 green = PWM(Pin(14))
 blue = PWM(Pin(13))
-
+    
 # Đặt tần số PWM phù hợp cho LED (thường là 500Hz)
 red.freq(500)
 green.freq(500)
